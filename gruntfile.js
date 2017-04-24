@@ -7,4 +7,9 @@ module.exports = function(grunt) {
     configPath: path.join(process.cwd(), 'grunt')
   });
 
+  // Load custom tasks
+  grunt.loadTasks('tasks');
+
+  grunt.registerTask('default', ['browserSync:main']);
+
 };

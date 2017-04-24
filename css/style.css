@@ -1,0 +1,14 @@
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+
+h1 {
+  font-size: 4em;
+}
